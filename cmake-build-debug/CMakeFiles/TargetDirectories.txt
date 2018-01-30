@@ -1,0 +1,5 @@
+E:/IdeaProjects/MBlock/cmake-build-debug/CMakeFiles/one_CORE.dir
+E:/IdeaProjects/MBlock/cmake-build-debug/CMakeFiles/MBlock.dir
+E:/IdeaProjects/MBlock/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/IdeaProjects/MBlock/cmake-build-debug/CMakeFiles/MBlock-size.dir
+E:/IdeaProjects/MBlock/cmake-build-debug/CMakeFiles/edit_cache.dir

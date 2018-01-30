@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MBlock"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Platform\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/IdeaProjects/MBlock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="one_CORE">
+				<Option output="E:/IdeaProjects/MBlock/cmake-build-debug/libone_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/IdeaProjects/MBlock/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/IdeaProjects/MBlock/libraries/makeblock/src"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 one_CORE"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="one_CORE/fast">
+				<Option output="E:/IdeaProjects/MBlock/cmake-build-debug/libone_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/IdeaProjects/MBlock/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/IdeaProjects/MBlock/libraries/makeblock/src"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 one_CORE/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MBlock">
+				<Option output="E:/IdeaProjects/MBlock/cmake-build-debug/MBlock.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/IdeaProjects/MBlock/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/IdeaProjects/MBlock/libraries/makeblock/src"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 MBlock"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MBlock/fast">
+				<Option output="E:/IdeaProjects/MBlock/cmake-build-debug/MBlock.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/IdeaProjects/MBlock/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/IdeaProjects/MBlock/libraries/makeblock/src"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="c:\program files (x86)\arduino\hardware\tools\avr\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 MBlock/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/IdeaProjects/MBlock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MBlock-size">
+				<Option working_dir="E:/IdeaProjects/MBlock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 MBlock-size"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/IdeaProjects/MBlock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;E:/IdeaProjects/MBlock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Arduino.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/CDC.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Client.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/IPAddress.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Print.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Print.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Printable.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Server.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Stream.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Stream.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Tone.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/USBAPI.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/USBCore.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/USBDesc.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Udp.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/WCharacter.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/WMath.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/WString.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/WString.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/abi.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/binary.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/hooks.c">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/main.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/new.cpp">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/new.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring.c">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_private.h">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+			<Option target="one_CORE"/>
+		</Unit>
+		<Unit filename="E:/IdeaProjects/MBlock/MBlock.ino">
+			<Option target="MBlock"/>
+		</Unit>
+		<Unit filename="E:/IdeaProjects/MBlock/cmake-build-debug/MBlock_MBlock.ino.cpp">
+			<Option target="MBlock"/>
+		</Unit>
+		<Unit filename="E:/IdeaProjects/MBlock/cmake-build-debug/MBlock_MBlock.ino.cpp.rule">
+			<Option target="MBlock"/>
+		</Unit>
+		<Unit filename="E:/IdeaProjects/MBlock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/IdeaProjects/MBlock/cmake/ArduinoToolchain.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/IdeaProjects/MBlock/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+		<Unit filename="E:/IdeaProjects/MBlock/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+		<Unit filename="E:/IdeaProjects/MBlock/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
